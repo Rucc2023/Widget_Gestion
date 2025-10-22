@@ -23,7 +23,7 @@ class FormValidatorModel extends ChangeNotifier {
     if (value.length < 5) {
       return 'El usuario debe tener al menos 5 caracteres.';
     }
-    return null; // Válido
+    return null; 
   }
   
   /// Valida el campo de Contraseña: no vacío y mínimo 8 caracteres.
